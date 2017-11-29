@@ -25,7 +25,12 @@
   },
   "autoload": {
     "psr-4": {
-      "Aliyun\\Core\\": "src"
+      "Aliyun\\Core\\": "aliyun-php-sdk-core",
+      "Aliyun\\Core\\Auth\\": "aliyun-php-sdk-core/Auth",
+      "Aliyun\\Core\\Http\\": "aliyun-php-sdk-core/Http",
+      "Aliyun\\Core\\Profile\\": "aliyun-php-sdk-core/Profile",
+      "Aliyun\\Core\\Regions\\": "aliyun-php-sdk-core/Regions",
+      "Aliyun\\Core\\Exception\\": "aliyun-php-sdk-core/Exception"
 
     }
   },
