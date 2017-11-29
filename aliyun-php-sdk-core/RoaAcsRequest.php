@@ -17,6 +17,7 @@
  * specific language governing permissions and limitations
  * under the License.
  */
+namespace  Aliyun\Core; 
 abstract class RoaAcsRequest extends AcsRequest
 {
     protected $uriPattern;
