@@ -17,8 +17,7 @@
  * specific language governing permissions and limitations
  * under the License.
  */
-
-namespace  Aliyun\Core;
+namespace  Aliyun\Core; 
 abstract class AcsRequest
 {
 	protected  $version;

@@ -17,6 +17,7 @@
  * specific language governing permissions and limitations
  * under the License.
  */
+ namespace aliyun-php-sdk-core\Auth;
 interface ISigner
 {
     public function getSignatureMethod();

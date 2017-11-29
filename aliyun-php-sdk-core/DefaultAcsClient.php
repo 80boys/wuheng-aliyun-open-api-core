@@ -17,7 +17,7 @@
  * specific language governing permissions and limitations
  * under the License.
  */
-namespace  Aliyun\Core; 
+ namespace  Aliyun\Core;
 class DefaultAcsClient implements IAcsClient
 {
     public $iClientProfile;
