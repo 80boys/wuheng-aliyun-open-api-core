@@ -17,7 +17,7 @@
  * specific language governing permissions and limitations
  * under the License.
  */
-namespace Aliyun\Core\Regions;
+namespace Alicloud\Core\Regions;
 class ProductDomain
 {
     private $productName;

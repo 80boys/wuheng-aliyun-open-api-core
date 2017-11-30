@@ -17,8 +17,8 @@
  * specific language governing permissions and limitations
  * under the License.
  */
-namespace Aliyun\Core\Exception;
-use Aliyun\Core\Exception\ClientException;
+namespace Alicloud\Core\Exception;
+use Alicloud\Core\Exception\ClientException;
 class ServerException extends ClientException
 {
     private $httpStatus;

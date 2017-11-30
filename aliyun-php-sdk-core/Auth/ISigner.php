@@ -17,7 +17,7 @@
  * specific language governing permissions and limitations
  * under the License.
  */
- namespace Aliyun\Core\Auth;
+ namespace Alicloud\Core\Auth;
 interface ISigner
 {
     public function getSignatureMethod();

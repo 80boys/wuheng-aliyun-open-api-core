@@ -17,7 +17,7 @@
  * specific language governing permissions and limitations
  * under the License.
  */
-namespace Aliyun\Core\Exception;
+namespace Alicloud\Core\Exception;
 class ClientException extends \Exception
 {
     public function __construct($errorMessage, $errorCode)

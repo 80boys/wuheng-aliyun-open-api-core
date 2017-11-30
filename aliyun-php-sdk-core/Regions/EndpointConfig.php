@@ -17,10 +17,10 @@
  * specific language governing permissions and limitations
  * under the License.
  */
-use Aliyun\Core\Regions;
-use Aliyun\Core\Regions\ProductDomain;
-use Aliyun\Core\Regions\Endpoint;
-use Aliyun\Core\Regions\EndpointProvider;
+use Alicloud\Core\Regions;
+use Alicloud\Core\Regions\ProductDomain;
+use Alicloud\Core\Regions\Endpoint;
+use Alicloud\Core\Regions\EndpointProvider;
 
 $endpoint_filename = dirname(__FILE__) . DIRECTORY_SEPARATOR . "endpoints.xml";
 $xml = simplexml_load_string(file_get_contents($endpoint_filename));

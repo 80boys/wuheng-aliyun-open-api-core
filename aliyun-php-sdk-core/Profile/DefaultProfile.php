@@ -18,11 +18,11 @@
  * under the License.
  */
  
-namespace Aliyun\Core\Profile;
-use Aliyun\Core\Auth\Credential; 
-use Aliyun\Core\Auth\ShaHmac1Signer;
-use Aliyun\Core\Regions\ProductDomain;
-use Aliyun\Core\Regions\Endpoint;
+namespace Alicloud\Core\Profile;
+use Alicloud\Core\Auth\Credential; 
+use Alicloud\Core\Auth\ShaHmac1Signer;
+use Alicloud\Core\Regions\ProductDomain;
+use Alicloud\Core\Regions\Endpoint;
 
 class DefaultProfile implements IClientProfile
 {

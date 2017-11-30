@@ -17,9 +17,9 @@
  * specific language governing permissions and limitations
  * under the License.
  */
-namespace Aliyun\Core\Http;
-use Aliyun\Core\Http\HttpResponse;
-use Aliyun\Core\Exception\ClientException;
+namespace Alicloud\Core\Http;
+use Alicloud\Core\Http\HttpResponse;
+use Alicloud\Core\Exception\ClientException;
 
 class HttpHelper
 {

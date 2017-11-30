@@ -17,7 +17,7 @@
  * specific language governing permissions and limitations
  * under the License.
  */
-namespace Aliyun\Core\Http;
+namespace Alicloud\Core\Http;
 class HttpResponse
 {
     private $body;

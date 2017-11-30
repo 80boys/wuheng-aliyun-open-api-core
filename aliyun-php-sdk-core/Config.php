@@ -17,7 +17,7 @@
  * specific language governing permissions and limitations
  * under the License.
  */
-namespace  Aliyun\Core;
+namespace  Alicloud\Core;
 include_once 'Regions/EndpointConfig.php';
 include_once 'Regions/LocationService.php';
 
