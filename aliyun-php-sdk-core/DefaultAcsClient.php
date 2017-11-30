@@ -17,7 +17,13 @@
  * specific language governing permissions and limitations
  * under the License.
  */
- namespace  Aliyun\Core;
+namespace  Aliyun\Core;
+use Aliyun\Core\Regions\LocationService;
+use Aliyun\Core\Regions\EndpointProvider;
+use Aliyun\Core\Http\HttpHelper;
+use Aliyun\Core\Exception\ClientException;
+use Aliyun\Core\Exception\ServerException;
+
 class DefaultAcsClient implements IAcsClient
 {
     public $iClientProfile;

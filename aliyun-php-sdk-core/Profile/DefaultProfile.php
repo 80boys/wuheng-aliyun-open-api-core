@@ -17,7 +17,13 @@
  * specific language governing permissions and limitations
  * under the License.
  */
- namespace aliyun-php-sdk-core\Profile;
+ 
+namespace Aliyun\Core\Profile;
+use Aliyun\Core\Auth\Credential; 
+use Aliyun\Core\Auth\ShaHmac1Signer;
+use Aliyun\Core\Regions\ProductDomain;
+use Aliyun\Core\Regions\Endpoint;
+
 class DefaultProfile implements IClientProfile
 {
 	private static $profile;

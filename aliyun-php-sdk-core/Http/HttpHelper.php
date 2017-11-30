@@ -17,7 +17,10 @@
  * specific language governing permissions and limitations
  * under the License.
  */
-  namespace aliyun-php-sdk-core\Http;
+namespace Aliyun\Core\Http;
+use Aliyun\Core\Http\HttpResponse;
+use Aliyun\Core\Exception\ClientException;
+
 class HttpHelper
 {
     public static $connectTimeout = 30;//30 second

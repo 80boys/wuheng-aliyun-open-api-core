@@ -17,7 +17,8 @@
  * specific language governing permissions and limitations
  * under the License.
  */
-  namespace aliyun-php-sdk-core\Exception;
+namespace Aliyun\Core\Exception;
+use Aliyun\Core\Exception\ClientException;
 class ServerException extends ClientException
 {
     private $httpStatus;

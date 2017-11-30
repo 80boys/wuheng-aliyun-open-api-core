@@ -17,7 +17,10 @@
  * specific language governing permissions and limitations
  * under the License.
  */
-use aliyun-php-sdk-core\Regions;
+use Aliyun\Core\Regions;
+use Aliyun\Core\Regions\ProductDomain;
+use Aliyun\Core\Regions\Endpoint;
+use Aliyun\Core\Regions\EndpointProvider;
 
 $endpoint_filename = dirname(__FILE__) . DIRECTORY_SEPARATOR . "endpoints.xml";
 $xml = simplexml_load_string(file_get_contents($endpoint_filename));

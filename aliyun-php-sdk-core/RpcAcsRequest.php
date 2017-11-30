@@ -17,7 +17,7 @@
  * specific language governing permissions and limitations
  * under the License.
  */
- namespace  Aliyun\Core;
+namespace  Aliyun\Core;
 abstract class RpcAcsRequest extends AcsRequest
 {
     private $dateTimeFormat = 'Y-m-d\TH:i:s\Z';

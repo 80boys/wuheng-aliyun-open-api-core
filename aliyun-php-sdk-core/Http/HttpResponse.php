@@ -17,7 +17,7 @@
  * specific language governing permissions and limitations
  * under the License.
  */
- namespace aliyun-php-sdk-core\Http;
+namespace Aliyun\Core\Http;
 class HttpResponse
 {
     private $body;

@@ -17,7 +17,7 @@
  * specific language governing permissions and limitations
  * under the License.
  */
-namespace aliyun-php-sdk-core\Regions;
+namespace Aliyun\Core\Regions;
 class ProductDomain
 {
     private $productName;

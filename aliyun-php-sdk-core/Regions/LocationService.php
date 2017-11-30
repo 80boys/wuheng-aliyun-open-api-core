@@ -17,7 +17,8 @@
  * specific language governing permissions and limitations
  * under the License.
  */
- namespace aliyun-php-sdk-core\Regions;
+namespace Aliyun\Core\Regions;
+use Aliyun\Core\RpcAcsRequest;
 define("LOCATION_SERVICE_PRODUCT_NAME", "Location");
 define("LOCATION_SERVICE_DOMAIN", "location.aliyuncs.com");
 define("LOCATION_SERVICE_VERSION", "2015-06-12");
